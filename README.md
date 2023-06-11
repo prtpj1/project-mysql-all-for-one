@@ -53,40 +53,28 @@ Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os con
 ## Tecnologias Utilizadas
 
 ### BackEnd:
-- Docker
 - MySQL
 - Node.js
 
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github Imgs/Docker2.png" width="50" height="50" alt="Docker Icon" /></a>
 <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github Imgs/mySQL2.png" width="50" height="50" alt="MySQL Icon" /></a>
 <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github Imgs/NodeJS2.png" width="50" height="50" alt="NodeJS Icon" /></a>
-<!--
+
 ## Como rodar a aplicação?
 - Se estiver no Windows, pare o mySQL do Windows
 - Verifique se o mySQL esta rodando na sua distro do Linux ou WSL: <br>
 `sudo service mysql status`
 - Use o comando abaixo caso não esteja rodando: <br>
 `sudo service mysql start`
-- Verifique se o Docker está rodando na sua máquina: <br>
-`sudo service docker status`
-- Use o comando abaixo caso não esteja rodando: <br>
-`sudo service docker start`
 - Clone o repositório: <br>
 `git clone git@github.com:prtpj1/project-mysql-all-for-one.git`
 - Acesse a pasta do projeto: <br>
 `cd project-mysql-all-for-one`
-- Na pasta do projeto inicie os serviços node e db no docker: <br>
-`docker-compose up -d`
-- Quando o container estiver rodando, acesse o terminal do docker: <br>
-`docker exec -it all_for_one bash`
-- No terminal do container interativo no docker, instale as dependências: <br>
+- Instale as dependências: <br>
 `npm install`
-- Abra o VS Code: <br>
-`code .` <br>
-- Dentro da pasta `%/docker/docker-commands`, haverão 9 arquivos com comandos utilizados pelo Docker <br>
-- Copie a linha de comando do primeiro arquivo `command01.dc`, cole no seu terminal e execute <br>
-- Repita o processo seguindo a ordem numérica dos arquivos até executar o ultimo comando </br>
--->
+- Crie e popule o banco de dados:
+`mysql -u root -p northwind < northwind.sql` Use o seu password de usuario root da distro instalada
+- Execute as queries de cada arquivo desafio na pasta do projeto dentro do proprio VSCode se você usar alguma extensão de DB como por exemplo a "Database" ou no programa Gerenciador de Banco de Dados como por exemplo o "MySQL Workbench"
+
 
 
 
