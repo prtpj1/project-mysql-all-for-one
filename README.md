@@ -72,7 +72,8 @@ Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os con
 - Instale as dependências: <br>
 `npm install`
 - Crie e popule o banco de dados:
-`mysql -u root -p northwind < northwind.sql` Use o seu password de usuario root da distro instalada
+`mysql -u root -p northwind < northwind.sql`
+⚠️ Use o seu password de usuario root da distro instalada
 - Execute as queries de cada arquivo desafio na pasta do projeto dentro do proprio VSCode se você usar alguma extensão de DB como por exemplo a "Database" ou no programa Gerenciador de Banco de Dados como por exemplo o "MySQL Workbench"
 
 
