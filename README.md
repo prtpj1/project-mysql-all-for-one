@@ -60,11 +60,8 @@ Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os con
 <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://github.com/prtpj1/prtpj1/blob/main/Github Imgs/NodeJS2.png" width="50" height="50" alt="NodeJS Icon" /></a>
 
 ## Como rodar a aplicação?
-- Se estiver no Windows, pare o mySQL do Windows
-- Verifique se o mySQL esta rodando na sua distro do Linux ou WSL: <br>
-`sudo service mysql status`
-- Use o comando abaixo caso não esteja rodando: <br>
-`sudo service mysql start`
+- O MySQL precisa estar rodando na sua máquina
+- ⚠️ Se estiver no Windows, pare o MySQL do Windows
 - Clone o repositório: <br>
 `git clone git@github.com:prtpj1/project-mysql-all-for-one.git`
 - Acesse a pasta do projeto: <br>
@@ -72,8 +69,8 @@ Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os con
 - Instale as dependências: <br>
 `npm install`
 - Crie e popule o banco de dados:
-`mysql -u root -p northwind < northwind.sql`
-⚠️ Use o seu password de usuario root da distro instalada
+`mysql -u root -p northwind < northwind.sql` <br>
+⚠️ Use o seu password de usuario root da distro instalada <br>
 - Execute as queries de cada arquivo desafio na pasta do projeto dentro do proprio VSCode se você usar alguma extensão de DB como por exemplo a "Database" ou no programa Gerenciador de Banco de Dados como por exemplo o "MySQL Workbench"
 
 
