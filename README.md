@@ -54,7 +54,6 @@ In this second BackEnd project, I put into practice what I learned about MySQL c
 - ❌ Delete all data in the 'unit_price' column of the 'order_details' table where the value is less than 10.0000
 - ❌ Delete all data in the 'unit_price' column of the 'order_details' table where the value is greater than 10.0000
 - ❌ Delete all data from the 'order_details' table
-<br>
 <hr/>
 
 ## Stacks
@@ -116,7 +115,6 @@ Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os con
 - ❌ Deletar todos os dados na coluna 'unit_price' da tabela 'order_details' em que o valor seja menor que 10.0000 
 - ❌ Deletar todos os dados na coluna 'unit_price' da tabela 'order_details' em que o valor seja maior que 10.0000
 - ❌ Deletar todos os dados da tabela 'order_details'
-<br>
 <hr/>
 
 ## Tecnologias Utilizadas
