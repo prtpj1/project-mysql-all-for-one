@@ -1,8 +1,8 @@
-# 19º Projeto: MySQL - All For One
-
+# 19º Projeto: All For One
 <p align="center">
-<img src="https://github.com/prtpj1/prtpj1/blob/main/Headers/19%20-%20All%20For%20One.jpg" alt="Header" />
-<hr/>
+  <img src="https://github.com/prtpj1/prtpj1/blob/main/Headers/19%20-%20All%20For%20One.jpg?raw=true" alt="Header" />
+</p>
+
 <p align="center">
 <a href="#project-description">Project Description</a> •
 <a href="#in-this-project-i-learned-and-put-into-practice">Learning</a> •
@@ -10,7 +10,8 @@
 <a href="#stacks">Stacks</a> •
 <a href="#how-to-run-the-application">How to run the application</a>
 </p>
-<hr/>
+
+ ---
 <p align="center">
 <a href="#descrição-do-projeto">Descrição do Projeto</a> •
 <a href="#nesse-projeto-aprendi-e-coloquei-em-prática">Aprendizado</a> •
@@ -18,8 +19,8 @@
 <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> •
 <a href="#como-rodar-a-aplicação">Rodar a Aplicação</a>
 </p>
-<hr/>
 
+ ---
 ## Project Description
 In this second BackEnd project, I put into practice what I learned about MySQL concepts through various challenges.
 
@@ -54,7 +55,6 @@ In this second BackEnd project, I put into practice what I learned about MySQL c
 - ❌ Delete all data in the 'unit_price' column of the 'order_details' table where the value is less than 10.0000
 - ❌ Delete all data in the 'unit_price' column of the 'order_details' table where the value is greater than 10.0000
 - ❌ Delete all data from the 'order_details' table
-<hr/>
 
 ## Stacks
 ### BackEnd:
@@ -76,11 +76,11 @@ In this second BackEnd project, I put into practice what I learned about MySQL c
 `mysql -u root -p northwind < northwind.sql` <br>
 ⚠️ Use your root user password from the installed distro <br>
 - Execute the queries from each challenge file in the project folder within VSCode if you use a DB extension, such as "Database," or in the Database Management Program, such as "MySQL Workbench"
-</br>
-</br>
-_*NOTE: If you encounter any difficulties with the instructions and want to provide feedback, send me a message*_
-<hr/>
 
+
+_*NOTE: If you encounter any difficulties with the instructions and want to provide feedback, send me a message*_
+ 
+ ---
 ## Descrição do Projeto
 Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os conceitos de mySQL através de vários desafios.<br>
 
@@ -115,10 +115,9 @@ Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os con
 - ❌ Deletar todos os dados na coluna 'unit_price' da tabela 'order_details' em que o valor seja menor que 10.0000 
 - ❌ Deletar todos os dados na coluna 'unit_price' da tabela 'order_details' em que o valor seja maior que 10.0000
 - ❌ Deletar todos os dados da tabela 'order_details'
-<hr/>
 
 ## Tecnologias Utilizadas
-### BackEnd:
+### BackEnd
 - MySQL
 - Node.js
 
@@ -138,8 +137,8 @@ Neste segundo projeto de BackEnd coloquei em prática o que aprendi sobre os con
 `mysql -u root -p northwind < northwind.sql` <br>
 ⚠️ Use o seu password de usuario root da distro instalada <br>
 - Execute as queries de cada arquivo desafio na pasta do projeto dentro do proprio VSCode se você usar alguma extensão de DB como por exemplo a "Database" ou no programa Gerenciador de Banco de Dados como por exemplo o "MySQL Workbench"
-</br>
-</br>
+
+
 _*OBS: Se tiver alguma dificuldade com as instruções e quiser dar um feedback me mande uma mensagem*_
 
 
